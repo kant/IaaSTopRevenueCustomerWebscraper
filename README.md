@@ -6,7 +6,11 @@ A script (Python) to scrape specified websites containing the World's top compan
 
 The script pulls data from static web pages. First the top companies by revenue is retrieved, then lists of customers for both AWS and Azure are retrieved. A comparison is done and this data is then combined to give an indication of whether the top companies use Azure/AWS/both/neither.
 
-##Improvements/Better Data Sources
+## Running the script
+
+After installing dependencies in `requirements.txt` script can be executed by entering a python 3.6.2 environment and calling ```python Webscraper.py```
+
+## Improvements/Better Data Sources
 **Note: An future improvmenent is to pull dynamic content (i.e. data rendered at a later stage by javascript/AJAX).**
 
 Libraries to achieve such functionality could be Dryscraper or Selenium 
@@ -17,7 +21,7 @@ With Dynamic content, more comrehensive data is available:
 2. Comprehensive list of Azure customers (will need to handle pagination):
    https://azure.microsoft.com/en-us/case-studies/
 
-##Algorithm
+## Algorithm
 
 The algorithm for this script is as follows:
 1. Pull the list of top companies by revenue (listA)
@@ -42,10 +46,8 @@ The algorithm for this script is as follows:
 
 Dependencies are managed via python pip and can be installed as follows:
 
-* !pip install lxml
-* !pip install requests
-* !pip install pandas
-* !pip install bs4
-* !pip install openpyxl
-
-## Deployment
+* `!pip install lxml`
+* `!pip install requests`
+* `!pip install pandas`
+* `!pip install bs4`
+* `!pip install openpyxl`
