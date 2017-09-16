@@ -1,6 +1,6 @@
 # IaasTopRevenueCustomerWebscraper
 
-A script (Python) to scrape specified websites containing the World's top companies by revenue and merge this inforation with secondary sources to detemine whether these companies use Azure/AWS or neither.
+A script (Python) to scrape specified websites containing the World's top companies by revenue and merge this information with secondary sources to detemine whether these companies use Azure/AWS or neither.
 
 ## Overview
 
@@ -16,11 +16,13 @@ A comparison is done and this data is then combined to give an indication of whe
 After installing dependencies in `requirements.txt` script can be executed by entering a python 3.6.2 environment and calling ```python Webscraper.py```
 
 ## Caveats/Future work
-**Note: An future improvmenent is to pull dynamic content (i.e. data rendered at a later stage by javascript/AJAX).**
+**Note: A future improvmenent is to pull dynamic content (i.e. data rendered at a later stage by javascript/AJAX).**
 
-Libraries to achieve such functionality could be Dryscraper or Selenium 
+Libraries to achieve such functionality could be 
+- Dryscrape -> http://dryscrape.readthedocs.io/en/latest/installation.html
+- Selenium -> http://selenium-python.readthedocs.io/
 
-With Dynamic content, more comrehensive data is available: 
+With Dynamic content, more comprehensive data is can be scraped: 
 1. Better top company data sources: 
    https://www.forbes.com/global2000/list/#header:revenue_sortreverse:true
 2. Comprehensive list of Azure customers (will need to handle pagination):
@@ -43,7 +45,7 @@ The algorithm for this script is as follows:
 
 1. This script runs in a python 3.6.2 environment 
 2. The dependencies can be viewed in the requirements.txt file
-3. Many of the dependencies are actually for jupyter notebook, which is useful for writing scripts in blocks in a webbrowser
+3. Many of the dependencies are actually for jupyter notebook, which is useful for writing scripts in blocks in a webbrowser and sharing with colleagues
 
 ## Installing Dependencies
 
@@ -54,3 +56,4 @@ Dependencies are managed via python pip and can be installed as follows:
 * `!pip install pandas`
 * `!pip install bs4`
 * `!pip install openpyxl`
+* `!pip install jupyter`
