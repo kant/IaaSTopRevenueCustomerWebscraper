@@ -5,9 +5,10 @@ A script (Python) to scrape specified websites containing the World's top compan
 ## Overview
 
 The script pulls data from static web pages. 
-First the top companies by revenue is retrieved: https://en.wikipedia.org/wiki/List_of_largest_companies_by_revenue
-Then lists of customer for AWS is retrieved: https://aws.amazon.com/solutions/case-studies/all/
-These a list Azure are retrieved: https://www.quora.com/What-are-publicly-known-biggest-customers-of-the-Microsoft-Azure-Platform
+- The top companies by revenue is retrieved: https://en.wikipedia.org/wiki/List_of_largest_companies_by_revenue
+- The list of customer for AWS is retrieved: https://aws.amazon.com/solutions/case-studies/all/
+- The list Azure are retrieved: https://www.quora.com/What-are-publicly-known-biggest-customers-of-the-Microsoft-Azure-Platform
+
 A comparison is done and this data is then combined to give an indication of whether the top companies use Azure/AWS/both/neither.
 
 ## Running the script
