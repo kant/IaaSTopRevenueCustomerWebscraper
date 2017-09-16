@@ -4,6 +4,21 @@ A script (Python) to scrape specified websites containing the World's top compan
 
 ## Overview
 
+The script pulls data from static web pages. First the top companies by revenue is retrieved, then lists of customers for both AWS and Azure are retrieved. A comparison is done and this data is then combined to give an indication of whether the top companies use Azure/AWS/both/neither.
+
+##Improvements/Better Data Sources
+**Note: An future improvmenent is to pull dynamic content (i.e. data rendered at a later stage by javascript/AJAX).**
+
+Libraries to achieve such functionality could be Dryscraper or Selenium 
+
+With Dynamic content, more comrehensive data is available: 
+1. Better top company data sources: 
+   https://www.forbes.com/global2000/list/#header:revenue_sortreverse:true
+2. Comprehensive list of Azure customers (will need to handle pagination):
+   https://azure.microsoft.com/en-us/case-studies/
+
+##Algorithm
+
 The algorithm for this script is as follows:
 1. Pull the list of top companies by revenue (listA)
 2. Pull a list of AWS customers (listB)
