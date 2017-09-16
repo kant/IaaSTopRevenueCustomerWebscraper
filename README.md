@@ -10,7 +10,7 @@ The script pulls data from static web pages. First the top companies by revenue 
 
 After installing dependencies in `requirements.txt` script can be executed by entering a python 3.6.2 environment and calling ```python Webscraper.py```
 
-## Improvements/Better Data Sources
+## Caveats/Future work
 **Note: An future improvmenent is to pull dynamic content (i.e. data rendered at a later stage by javascript/AJAX).**
 
 Libraries to achieve such functionality could be Dryscraper or Selenium 
@@ -34,9 +34,7 @@ The algorithm for this script is as follows:
 8. Where there is not a direct match, see if there is a less direct match and rate it
 9. Ouput the information to excel for review
 
-## Caveats/Future work
-
-### Prerequisites
+## Prerequisites
 
 1. This script runs in a python 3.6.2 environment 
 2. The dependencies can be viewed in the requirements.txt file
