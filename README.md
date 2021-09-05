@@ -16,7 +16,7 @@ A comparison is done and this data is then combined to give an indication of whe
 After installing dependencies in `requirements.txt` script can be executed by entering a python 3.6.2 environment and calling ```python Webscraper.py```
 
 ## Caveats/Future work
-**Note: A future improvmenent is to pull dynamic content (i.e. data rendered at a later stage by javascript/AJAX).**
+**Note: A future improvement is to pull dynamic content (i.e. data rendered at a later stage by javascript/AJAX).**
 
 Libraries to achieve such functionality could be 
 - Dryscrape -> http://dryscrape.readthedocs.io/en/latest/installation.html
